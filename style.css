@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* تصميم الصفحة الرئيسية */
+.home {
+    background-color: #232c3c;
+    text-align: center;
+    color: white;
+}
+
+/* تصميم صفحة الفريق */
+.team-member {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+
+
+/* تصميم صفحة الإنجازات */
+.achievement {
+    background: #e8f5e9;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+/* تصميم صفحة الاتصال */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #45a049;
+}
+
+.team-member img {
+    width: 100px; /* حجم الصورة */
+    height: 100px; /* ارتفاع الصورة */
+    border-radius: 50%; /* صورة دائرية */
+    margin-right: 20px; /* مسافة بين الصورة والنص */
+}
+
+.home img {
+    width: 200px; /* حجم الصورة */
+    height: 100px; /* ارتفاع الصورة */
+    max-width: 100%; /* يجعل الصورة تتناسب مع عرض الشاشة */
+    height: auto; /* يحافظ على نسبة العرض إلى الارتفاع */
+    display: block;
+    margin: 0 auto; /* توسيط الصورة */
+}
+.about-project image {
+    width: 200px; /* حجم الصورة */
+    height: 100px; /* ارتفاع الصورة */
+    max-width: 100%; /* يجعل الصورة تتناسب مع عرض الشاشة */
+    height: auto; /* يحافظ على نسبة العرض إلى الارتفاع */
+    display: block;
+    margin: 0 auto; /* توسيط الصورة */
+}
+
+
+
